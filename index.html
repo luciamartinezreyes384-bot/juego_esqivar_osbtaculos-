@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego: Esquivar Autos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <!-- Bloque 1: Encabezado -->
+        <header class="encabezado">
+            <h1>🚗 ESQUIVA LOS AUTOS 🚛</h1>
+            <div class="info">
+                <span>Puntos: <span id="puntos">0</span></span>
+                <span>Nivel: <span id="nivel">1</span></span>
+            </div>
+        </header>
+
+        <!-- Bloque 2: Zona de Juego -->
+        <main id="pista" class="pista">
+            <div id="jugador" class="jugador"></div>
+            <div id="obstaculo" class="obstaculo"></div>
+            <div id="mensaje" class="mensaje"></div>
+        </main>
+
+        <!-- Bloque 3: Controles -->
+        <footer class="controles">
+            <button id="btnIniciar" class="boton verde">▶️ INICIAR</button>
+            <button id="btnReiniciar" class="boton rojo">🔄 REINICIAR</button>
+            <p>Usa ← → para moverte</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
